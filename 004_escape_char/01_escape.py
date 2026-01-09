@@ -20,14 +20,14 @@
 
 
 # 4) Quotes inside strings
-# print("He said \"Hello\" to me.")
-# print('It\'s a geat day!')
+print("He said \"Hello\" to me.")
+print('It\'s a geat day!')
 
 # 5) Carriage return \r
 # print("Loading...\rDone!")
 
 # 6) Backspace \b
-# print("ABC\bD")
+print("ABC\bD")
 
 # 7) Form feed \f and vertical tab \v (rare)
 # print("Hello\fWorld")
@@ -59,11 +59,11 @@
 # print(message)
 
 # Table-like formatting
-print("Name\tAge\tCity")
-print("Yash\t25\tChicago")
+# print("Name\tAge\tCity")
+# print("Yash\t25\tChicago")
 
 # windows path
-path1 = "C:\\Users\\Yash\\Documents\\file.txt"
-path2 = r"C:\Users\Yash\Documents\file.txt"
-print(path1)
-print(path2)
+# path1 = "C:\\Users\\Yash\\Documents\\file.txt"
+# path2 = r"C:\Users\Yash\Documents\file.txt"
+# print(path1)
+# print(path2)

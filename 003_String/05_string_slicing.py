@@ -3,8 +3,8 @@
 # Start is Included
 # end is not included
 
-# word = "Python"
-# print(word[0:2])
+word = "Python"
+print(word[0:2])
 
 # String: P y t h o n
 # Index:  0 1 2 3 4 5
@@ -17,14 +17,14 @@
 
 # =============================== ADVANCED SLICING - LEAVING OUT PARAMETERS
 # word = "Python"
-# print(word[2:])
-# print(word[:3])
-# print(word[:])
+print(word[2:])
+print(word[:3])
+print(word[:])
 
 # Example
-# email = "john.doe@example.com"
-# username = email[:email.find("@")]
-# print(username)
+email = "john.doe@example.com"
+username = email[:email.find("@")]
+print(username)
 
 # =============================== NEGATIVE SLICING - SLICING FROM THE END
 # word = "Python"
@@ -42,7 +42,7 @@
 # =============================== STEP PARAMETER - SLICING WITH INTERVALS
 # string[start:end:step]
 word = "Python"
-# print(word[::2])
+print(word[::2])
 
 # String: P y t h o n
 # Index:  0 1 2 3 4 5
@@ -59,7 +59,7 @@ word = "Python"
 # print(word[5:0:-1])
 # print(word[::-3])
 # =============================== IMPORTANT CONCEPTS & EDGE CASES
-word = "Python"
+# word = "Python"
 # CP - 1 - Slicing does not give error
 # print(word[0:100]) 
 # print(word[10:100])
@@ -72,8 +72,8 @@ word = "Python"
 # print(word)
 
 # CP - 3 - Empty Slicing
-print(word[3:3])
-print(word[5:2])
+# print(word[3:3])
+# print(word[5:2])
 
 # =============================== COMPLETE REFERENCE TABLE
 # SYNTAX              EXAMPLE         RESULT          MEANING
@@ -89,9 +89,9 @@ print(word[5:2])
 
 # =============================== REAL-WORLD EXAMPLES
 # Date processing
-date = "2024-12-25"
-year = date[0:4]
-month = date[6:7]
-day = date[9:10]
+# date = "2024-12-25"
+# year = date[0:4]
+# month = date[6:7]
+# day = date[9:10]
 
-print(f"{day}/{month}/{year}")
+# print(f"{day}/{month}/{year}")
